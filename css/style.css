@@ -1,0 +1,468 @@
+:root{
+    --bg:#14092A;
+    --purple:#9F53FF;
+    --pink:#FF52AF;
+    --txt:#D1C0F1;
+    --p:#A094B8;
+    --befor:#372A51;
+}
+*{
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+}
+main{
+    max-width: 375px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+header h1{
+    background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-family: 'Lora', serif;
+}
+.menues{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.res{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.li1{
+    background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title{
+    position: relative;
+    margin-top: 64px;
+    align-items: center;
+    width: 300px;
+    height: auto; 
+    font-family: 'Lora', serif;
+}
+.title h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--txt);
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-style: normal;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 150%; 
+}
+.bestyoga{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Lora', serif;
+}
+.rotate{
+    transform: rotate(10deg);
+}
+.yrotate{
+    background-image: linear-gradient(73deg, var(--pink),var(--purple));
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-size: 44px;
+    font-family: 'Lora', serif;
+    transform: rotate(10deg);
+}
+.strap{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    bottom: 0;
+    left:-10;
+}
+.star{
+    width: 60px;
+    height: 50px; 
+}
+.P1t{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif; 
+    color: var(--p);
+    position: relative;
+    height: auto;
+}
+.P1t::before{
+    content: "";
+    position: absolute;
+    width: 16.531px;
+    height: 16.531px; 
+    background-image: linear-gradient(73deg, var(--pink),var(--purple));
+    border-radius: 20px;
+    right: 50px; 
+    bottom: 0;
+}
+.smallcircle{
+    position: relative;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.smallcircle img{
+    position: absolute;
+    right: 0;
+}
+.startbtn{
+    display: flex;
+    align-items: center;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 64px; 
+}
+.btns{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 64px; 
+    border: none;
+    padding: 16px 28px;
+    background-image: linear-gradient(73deg, var(--pink),var(--purple));
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--txt); 
+    transition: 0.5s all linear;
+}
+.btns:active{
+    display: flex;
+    gap: 20px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Y300 h1{
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--txt);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400; 
+}
+.txt{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400; 
+    color: var(--txt);
+    font-family: 'Poppins', sans-serif;
+}
+.par40 h1{
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--txt);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400; 
+}
+.yogawoman{
+    width: 100%;
+    margin-top: 32px;
+}
+.number1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 64px;
+    position: relative;
+    height: 200px;
+}
+.number1 h1{
+    color: var(--txt);
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500; 
+    margin-top: 20px;
+}
+.number1 img{
+    position: relative;
+    width: 50%;
+}
+.number1::before{
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 100px;
+    border-radius: 200px; 
+    background-color: var(--befor);
+    top: 70px;
+    right: 20px;
+}
+.P2{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif; 
+    color: var(--p);
+    margin-top: 50px;
+}
+.stars2{
+    position: absolute;
+    top: 1400px;
+}
+.next{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colorfcircle{
+    width: 100%;
+}
+.nextflesh{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 160px;
+}
+.nextflesh h1{
+    background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-family: 'Lora', serif;
+}
+.fleshright{
+    width: 27px;
+}
+.txtpb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+}
+.txtpb h1{
+    color: var(--txt);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    font-family: 'Lora', serif; 
+}
+.txtpb p{
+    color: var(--p);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    font-family: 'Poppins', sans-serif;
+}
+.res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    display: none;
+}
+@media only screen and (min-width:900px){
+    main{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .menu{
+        display: none;
+    }
+    ul{
+        align-items: center;
+        display: flex;
+        list-style-type: none;
+        gap: 72px;
+        color:var(--txt);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500; 
+    }
+    header{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .yogawoman{
+        width: 40%;
+        cursor: crosshair;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .res{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        gap: 20px;
+        cursor: pointer;
+    }
+    .bestyoga{
+        width: 250px;
+        text-align: start;
+    }
+    .time{
+        margin-top: 0;
+    }
+    .P1t{
+        width: 400px;
+        text-align: start;
+    }
+    .P1t::before{
+        bottom: 55px;
+        left: -25px;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        cursor: pointer;
+    }
+    .li1{
+        position: relative;
+        background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .li1::after{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+        border-radius: 20px;
+        border: none;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s all linear;
+    }
+    .li1:hover::after{
+        width: 100%;
+        height: 2.5px;
+    }
+    .li2{
+        position: relative;
+        color: var(--txt);
+    }
+    .li2::after{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+        border-radius: 20px;
+        border: none;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s all linear;
+    }
+    .li2:hover::after{
+        width: 100%;
+        height: 2.5px;
+    }
+    .li3{
+        position: relative;
+        color: var(--txt);
+    }
+    .li3::after{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+        border-radius: 20px;
+        border: none;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s all linear;
+    }
+    .li3:hover::after{
+        width: 100%;
+        height: 2.5px;
+    }
+    .li4{
+        position: relative;
+        color: var(--txt);
+    }
+    .li4::after{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        background: linear-gradient(73deg, #FF52AF 11.6%, #9F53FF 83.86%);
+        border-radius: 20px;
+        border: none;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s all linear;
+    }
+    .li4:hover::after{
+        width: 100%;
+        height: 2.5px;
+    }
+    .strap{
+        right: 0;
+        bottom: 55px;
+    }
+    .startbtn{
+        display: flex;
+        align-items: center;
+    }
+    .title h1{
+        text-align: start;
+    }
+    .Teacher{
+        width: 250px;
+        text-align: start;
+        font-family: 'Lora', serif; 
+    }
+}
